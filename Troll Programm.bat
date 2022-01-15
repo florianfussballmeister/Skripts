@@ -1,0 +1,4 @@
+@ECHO OFF
+echo das ist nur ein Spaß es gibt kein Troll Programm :) , du findest troll.txt du under "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\ >> "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\troll.txt"
+mshta vbscript:Execute("msgbox ""das Troll Programm ist installiert der Pc wirt neue gestartet !!Bitte schaue ob du alles gespeichert hast bevor du auf ok Drueckst !! weil nach dem du auf den Button gerueckt hast wird der PC neue gestartet noch den Neue start wir das fhagzocker.de Programme automatisch gestartet"":close")
+SHUTDOWN /r /t 0
