@@ -1,10 +1,10 @@
 #hier werden die Pakete installiert die für das Backup script gebraucht werden
 apt-get update && apt-get upgrade -y
-apt-get install zip && apt-get install nfs-common -y
+apt-get install zip && apt-get install nfs-common && apt-get install unzip -y
 mkdir /home/backup && mkdir /home/NAS
 
 #hier wird die verbindung via nfs hergestellt
-mount -t nfs 192.168.178.9:/volume1/ServerBackup /home/NAS/
+mount -t nfs fhagzocker.de:/volume1/ /home/NAS/
 
 # hier wird alles gezipt
 zip -r /home/backup/sicherung_mc.zip /home/Minecraft/
