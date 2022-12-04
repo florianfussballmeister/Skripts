@@ -1,1 +1,1 @@
-# Mit skripts Kann man das Leben einfacher Machen
+# Mit Skripts kann man das Leben einfacher machen
