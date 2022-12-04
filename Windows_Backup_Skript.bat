@@ -2,7 +2,7 @@
 :: Wichtig, das Skript ist für das Programm 7-zip gemacht
 
 :: Hier stellt das Skript eine WebDAV Verbindung zum NAS her, Da wo Benutzer steht, den Benutzer eintragen und wo passwort seht, austauschen gegen das Passwort vom Account
-net use N: "https://fhagzocker.de:5006/jonasbackup/Windows Backup Desktop/Server-Backups" /user:benuter passwort /persistent:Yes
+net use N: "https://fhagzocker.de:5006/home" /user:benuter passwort /persistent:Yes
 
 :: Hier wird die variabel erstellt
 timeout /t 10
