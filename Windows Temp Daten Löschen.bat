@@ -1,5 +1,5 @@
 @ECHO OFF
-ECHO Willkommen %USERNAME% zum Temp Loschscript von Florian_fussballmeister
+ECHO Willkommen %USERNAME% zum Temp Loschscript von florian_fussballmeister
 Echo Webseite https://florian-fussballmeister.jimdofree.com/
 ECHO moechten Sie %USERNAME% wirklich die Temp Dateien Loschen ? (j / n)
 SET /p wahl=
