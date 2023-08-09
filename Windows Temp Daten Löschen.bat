@@ -14,5 +14,6 @@ echo Sie haben JA gedrueckt
 del C:\Users\%USERNAME%\AppData\Local\Temp\*.* /F /S /Q
 del C:\Users\%USERNAME%\AppData\LocalLow\Temp\*.* /F /S /Q
 del C:\Temp\*.* /F /S /Q
+del C:\Windows\Temp\*.* /F /S /Q
 :Ende
 pause
